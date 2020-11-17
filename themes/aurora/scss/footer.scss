@@ -1,0 +1,40 @@
+/*** BASIC LAYOUT: FOOTER ***/
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #d96446;
+    color: #c0c0c0;
+
+    .container {
+        width: 100%;
+    }
+
+    a {
+        color: $font-color;
+    }
+
+    a:hover {
+        color: #fff;
+    }
+
+    p {
+        color: $font-color;
+        margin: 0;
+    }
+
+    .developed {
+        display: flex;
+        align-items: center;
+        padding: 1.5em;
+    }
+
+    .developed a {
+        text-decoration: underline;
+    }
+
+    .social {
+        font-size: 2rem;
+        padding: 1.5em;
+    }
+}

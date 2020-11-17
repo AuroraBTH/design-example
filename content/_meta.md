@@ -1,6 +1,7 @@
 ---
 Logo: image/me.jpeg
-Tagline: A decent web developer
+Tagline: University Lecturer
+icon: fas fa-snowflake
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/AuroraBTH/design-example
