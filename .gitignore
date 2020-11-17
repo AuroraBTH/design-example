@@ -16,3 +16,6 @@ desktop.ini
 
 # NPM
 themes/node_modules/
+
+# Generated CSS-files
+themes/aurora/css/
