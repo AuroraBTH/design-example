@@ -1,3 +1,5 @@
+/* Report landing page */
+
 .landingpage {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -36,6 +38,45 @@
     grid-column: span 3;
 }
 
+/* Kmom */
+
+.report-container {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    gap: 1em;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1em;
+
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
+
+.report .next-previous {
+    display: none;
+}
+
+.sidebar a {
+    font-size: 1.8em;
+    text-align: center;
+    padding: 0.5em;
+    color: #444;
+    border-bottom: 1px solid transparent;
+
+    &:hover {
+        border-bottom: 1px solid $accent-color;
+    }
+}
+
+.sidebar .active {
+    text-decoration: underline;
+}
+
+/* Media Queries */
+
 @media (max-width: 767px) {
     .landingpage h1,
     .kmom-box,
@@ -45,5 +86,24 @@
 
     .project {
         margin-bottom: 1em;
+    }
+
+    .report-container {
+        grid-template-columns: 12fr;
+    }
+
+    .sidebar {
+        display: none !important;
+    }
+
+    .report .next-previous {
+        display: flex;
+        justify-content: center;
+
+        i {
+            font-size: 2.5em;
+            margin: 1em;
+            color: #444;
+        }
     }
 }
