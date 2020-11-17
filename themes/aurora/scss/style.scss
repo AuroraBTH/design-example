@@ -9,10 +9,10 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 $font-color: rgb(241, 241, 241);
 
+@import 'typography';
 @import 'header';
 @import '../../shared/scss/navigation';
 @import 'footer';
-@import 'typography';
 
 * {
     box-sizing: border-box;
