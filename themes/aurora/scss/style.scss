@@ -8,6 +8,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
 $font-color: rgb(241, 241, 241);
+$accent-color: #d96446;
 
 @import 'typography';
 @import 'header';
@@ -46,10 +47,6 @@ body {
 
 .header {
     flex: 0 0 auto;
-}
-
-.main {
-    padding: 5em 0 4em;
 }
 
 .container {

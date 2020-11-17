@@ -52,3 +52,13 @@
     color: $font-color;
     text-shadow: 1px 1px rgba(12, 12, 12);
 }
+
+@media (max-width: 767px) {
+    .logo {
+        display: none;
+    }
+
+    .title {
+        padding-left: 3em;
+    }
+}

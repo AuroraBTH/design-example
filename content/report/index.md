@@ -9,17 +9,17 @@ Report
 
 <div class="kmom-box">
     <a href="report/kmom01"><h2>Kmom01</h2></a>
-    <p>Något om kursmomentet...</p>
+    <p>Introduction to design</p>
 </div>
 
 <div class="kmom-box">
     <a href="report/kmom02"><h2>Kmom02</h2></a>
-    <p>Något om kursmomentet...</p>
+    <p>SASS, typography and Font Awesome</p>
 </div>
 
 <div class="kmom-box">
     <a href="report/kmom03"><h2>Kmom03</h2></a>
-    <p>Något om kursmomentet...</p>
+    <p>Layout with Flexbox and CSS-Grid</p>
 </div>
 
 <div class="kmom-box">
