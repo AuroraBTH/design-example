@@ -11,7 +11,7 @@ body {
     font-variant-ligatures: common-ligatures;
     text-rendering: optimizeLegibility;
     font-kerning: normal;
-    color: #444;
+    color: $font-color;
 }
 
 p,
@@ -55,7 +55,7 @@ h5,
 h6 {
     margin-bottom: 0.6em;
     font-weight: bold;
-    color: #333;
+    color: $font-color;
 }
 
 h1 {
@@ -98,3 +98,11 @@ abbr {
     text-decoration: underline dotted;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+}

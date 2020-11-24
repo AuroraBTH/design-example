@@ -1,5 +1,5 @@
 @import 'common';
-@import 'variables';
+@import 'variables-dark';
 
 @import 'typography';
 @import 'header';
@@ -13,6 +13,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    color: $font-color;
 }
 
 *:focus {
@@ -38,6 +39,7 @@ body {
 
 .header {
     flex: 0 0 auto;
+    filter: grayscale(50%);
 }
 
 .container {
