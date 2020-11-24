@@ -4,14 +4,14 @@
     display: flex;
     justify-content: space-between;
     background-color: $accent-color;
-    color: $font-color;
+    color: $font-alternative-color;
 
     .container {
         width: 100%;
     }
 
     a {
-        color: $font-color;
+        color: $font-alternative-color;
     }
 
     a:hover {
@@ -19,7 +19,7 @@
     }
 
     p {
-        color: $font-color;
+        color: $font-alternative-color;
         margin: 0;
     }
 
