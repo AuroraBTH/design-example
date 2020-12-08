@@ -18,6 +18,6 @@ Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
 Morbi congue nulla ut egestas rutrum. Vestibulum id elit sit amet magna accumsan pellentesque nec vel augue. Fusce felis leo, consectetur at ipsum sed, feugiat pharetra purus. Phasellus in placerat neque. Quisque ut enim vel orci pretium rutrum ut ac ante. Donec consectetur mauris tempus ligula consectetur tempor. Aenean porttitor tempor elit vel eleifend. Ut turpis elit, mollis vel vulputate vitae, tincidunt sit amet ante. Ut nulla eros, commodo id convallis a, dictum sit amet lectus. Pellentesque at imperdiet leo. Nulla aliquam dictum sapien, accumsan porttitor lectus sollicitudin vitae.
 
 <div class="next-previous">
-    <a href="kmom06"><i class="fas fa-chevron-left"></i></a>
-    <a href="kmom01"><i class="fas fa-chevron-right"></i></a>
+    <a href="kmom06" aria-label="previous"><i class="fas fa-chevron-left"></i></a>
+    <a href="kmom01" aria-label="next"><i class="fas fa-chevron-right"></i></a>
 </div>

@@ -40,6 +40,6 @@ Ange de eventuella referenser du använder dig av, om några.
 Skriv ditt eget namn samt vilka gruppmedlemmar som deltog i att författa rapporten.
 
 <div class="next-previous">
-    <a href="03_design-principles"><i class="fas fa-chevron-left"></i></a>
-    <a href="02_load"><i class="fas fa-chevron-right"></i></a>
+    <a href="03_design-principles" aria-label="previous"><i class="fas fa-chevron-left"></i></a>
+    <a href="02_load" aria-label="next"><i class="fas fa-chevron-right"></i></a>
 </div>
