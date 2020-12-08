@@ -27,6 +27,7 @@
         display: flex;
         align-items: center;
         padding: 1.5em;
+        font-size: 1.5rem;
     }
 
     .developed a {
@@ -36,5 +37,15 @@
     .social {
         font-size: 2rem;
         padding: 1.5em;
+    }
+}
+
+@media (max-width: 767px) {
+    .developed {
+        display: none !important;
+    }
+
+    .footer {
+        justify-content: center;
     }
 }
